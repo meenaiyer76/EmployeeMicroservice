@@ -1,0 +1,69 @@
+INFO  05:03:34 Application started. Press Ctrl+C to shut down.
+INFO  05:03:35 Application started. Press Ctrl+C to shut down.
+INFO  05:03:35 Hosting environment: Development
+INFO  05:03:35 Hosting environment: Development
+INFO  05:03:35 Content root path: C:\Users\Nithya\Documents\CorporateClassifieds\Employee\EmployeeMicroservice
+INFO  05:03:35 Content root path: C:\Users\Nithya\Documents\CorporateClassifieds\Employee\EmployeeMicroservice
+INFO  05:03:42 Employee List is displyed
+INFO  05:46:49 Application started. Press Ctrl+C to shut down.
+INFO  05:46:49 Application started. Press Ctrl+C to shut down.
+INFO  05:46:49 Hosting environment: Development
+INFO  05:46:49 Hosting environment: Development
+INFO  05:46:49 Content root path: C:\Users\Nithya\Documents\CorporateClassifieds\Employee\EmployeeMicroservice
+INFO  05:46:49 Content root path: C:\Users\Nithya\Documents\CorporateClassifieds\Employee\EmployeeMicroservice
+INFO  05:47:22 Employee List is displyed
+INFO  06:49:43 Application started. Press Ctrl+C to shut down.
+INFO  06:49:44 Application started. Press Ctrl+C to shut down.
+INFO  06:49:44 Hosting environment: Development
+INFO  06:49:44 Hosting environment: Development
+INFO  06:49:44 Content root path: C:\Users\Nithya\Documents\CorporateClassifieds\Employee\EmployeeMicroservice
+INFO  06:49:44 Content root path: C:\Users\Nithya\Documents\CorporateClassifieds\Employee\EmployeeMicroservice
+ERROR 06:50:31 An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Unable to cast object of type 'AsyncStateMachineBox`1[System.Collections.Generic.IList`1[OfferMicroservice.Models.OfferData],EmployeeMicroservice.Services.EmployeeService+<ViewEmployeeOffers>d__5]' to type 'System.Collections.Generic.IEnumerable`1[OfferMicroservice.Models.OfferData]'.
+   at EmployeeMicroservice.Controller.EmployeeController.ViewEmployeeOffers(Int32 employeeId) in C:\Users\Nithya\Documents\CorporateClassifieds\Employee\EmployeeMicroservice\Controller\EmployeeController.cs:line 44
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 06:50:31 An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Unable to cast object of type 'AsyncStateMachineBox`1[System.Collections.Generic.IList`1[OfferMicroservice.Models.OfferData],EmployeeMicroservice.Services.EmployeeService+<ViewEmployeeOffers>d__5]' to type 'System.Collections.Generic.IEnumerable`1[OfferMicroservice.Models.OfferData]'.
+   at EmployeeMicroservice.Controller.EmployeeController.ViewEmployeeOffers(Int32 employeeId) in C:\Users\Nithya\Documents\CorporateClassifieds\Employee\EmployeeMicroservice\Controller\EmployeeController.cs:line 44
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  06:52:54 Application started. Press Ctrl+C to shut down.
+INFO  06:52:54 Application started. Press Ctrl+C to shut down.
+INFO  06:52:54 Hosting environment: Development
+INFO  06:52:54 Hosting environment: Development
+INFO  06:52:54 Content root path: C:\Users\Nithya\Documents\CorporateClassifieds\Employee\EmployeeMicroservice
+INFO  06:52:54 Content root path: C:\Users\Nithya\Documents\CorporateClassifieds\Employee\EmployeeMicroservice
+INFO  10:45:34 Application started. Press Ctrl+C to shut down.
+INFO  10:45:34 Application started. Press Ctrl+C to shut down.
+INFO  10:45:34 Hosting environment: Development
+INFO  10:45:34 Hosting environment: Development
+INFO  10:45:35 Content root path: C:\Users\Nithya\Documents\CorporateClassifieds\Employee\EmployeeMicroservice
+INFO  10:45:35 Content root path: C:\Users\Nithya\Documents\CorporateClassifieds\Employee\EmployeeMicroservice
+INFO  10:46:17 Employee List is displyed
