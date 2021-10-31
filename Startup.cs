@@ -38,7 +38,7 @@ namespace EmployeeMicroservice
             });
             services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
             {
-                builder.WithOrigins("http://localhost:4200/")
+                builder
                        .AllowAnyOrigin()
                        .AllowAnyMethod()
                        .AllowAnyHeader();
