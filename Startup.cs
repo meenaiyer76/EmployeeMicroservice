@@ -59,16 +59,17 @@ namespace EmployeeMicroservice
 
             app.UseRouting();
            
-
-            app.UseAuthorization();
+             app.UseAuthentication();
              app.UseCors(builder =>
             {
                 builder.AllowAnyOrigin()
                 .AllowAnyMethod()
                 .AllowAnyHeader();
             });
+            app.UseAuthorization();
+            
 
-            app.UseAuthentication();
+           
 
             app.UseEndpoints(endpoints =>
             {
