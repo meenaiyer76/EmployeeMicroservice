@@ -58,15 +58,16 @@ namespace EmployeeMicroservice
             app.UseHttpsRedirection();
 
             app.UseRouting();
-            app.UseCors(builder =>
+           
+
+            app.UseAuthorization();
+             app.UseCors(builder =>
             {
                 builder.AllowAnyOrigin()
                 .AllowAnyMethod()
                 .AllowAnyHeader();
             });
 
-
-            app.UseAuthorization();
             app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
