@@ -12,7 +12,9 @@ namespace OfferMicroservice.Models
         {
             var client = new HttpClient();
             client.BaseAddress = new Uri("https://localhost:44389/");
-            return client;
+            var client1 = new HttpClient();
+            client.BaseAddress = new Uri("https://offermicroserviceweb.azurewebsites.net/");
+            return client1;
         }
     }
 }
