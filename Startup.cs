@@ -38,8 +38,7 @@ namespace EmployeeMicroservice
             });
             services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
             {
-                builder
-                       .AllowAnyOrigin()
+                builder.AllowAnyOrigin()
                        .AllowAnyMethod()
                        .AllowAnyHeader();
             }));
